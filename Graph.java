@@ -98,25 +98,10 @@ public Vertex opposite(Vertex v,Edge e){
     }
     private ArrayList<Vertex> element=new ArrayList<>();
     public void path( Vertex src){
-        // There is has an error
-//        element.add(src);
-//        System.out.print(src.getData()+"->");
-//        for (Edge e:src.getOutEdges()){
-//            Vertex adjVer=e.getEnd();
-//            for (Edge e2:adjVer.getOutEdges()){
-//                if(!(e2.getEnd().equals(src))){
-//                    System.out.print(e2.getStart().getData()+"->");
-//                    if(element.get(0).equals(e2.getEnd()))
-//                        return;
-////                    else path(e2.getEnd());
-//
-//
-//                }
-//            }
-//        }
-
+       
     }
 
 
 
 }
+
